@@ -1,0 +1,30 @@
+{
+  "name": "Boilerplate-Structure",
+  "version": "1.0.0",
+  "description": "Boilerplate-Structure",
+  "author": "Niket Gupta",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niketgupta101/Boilerplate-Structure.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  },
+  "bugs": {
+    "url": "https://github.com/Niketgupta101/Boilerplate-Structure/issues"
+  },
+  "homepage": "https://github.com/Niketgupta101/Boilerplate-Structure#readme"
+}
