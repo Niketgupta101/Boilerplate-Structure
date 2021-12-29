@@ -1,7 +1,12 @@
 const express = require("express");
+const controller = require('../../controllers/auth.controller')
 
 const router = express.Router();
 
-router.get('/authapi', (req, res) => res.send('auth api'));
+router.get('/login', controller.login);
+
+router.get('/signup', controller.signup);
+
+router.get('/forgotPassword', controller.forgotPassword);
 
 module.exports = router;
